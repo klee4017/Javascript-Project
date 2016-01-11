@@ -14,6 +14,7 @@ function doMath() {
         answer = parseInt(input1.value) + parseInt(input2.value);
         display.innerHTML = answer;
     }
+    /*the above function allows the viewer to add numbers in the drop down menu. */
     else if (dropdown.value == "-"){
         answer = parseInt(input1.value) - parseInt(input2.value);
         display.innerHTML = answer;
@@ -33,5 +34,7 @@ function doMath() {
         answer =  Math.pow(parseInt(input1.value), parseInt(input2.value));
         display.innerHTML = answer;
     }
-     
+    else {console.log("Please try again.")
+        
+    }
 }
