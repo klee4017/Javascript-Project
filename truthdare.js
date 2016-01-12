@@ -1,7 +1,9 @@
 // JavaScript File
-var button = document.getElementById("submitButton")
-var truth = "Truth";
-var dare = "Dare";
+var button = document.getElementById("Truth")
+var button = document.getElementById("Dare")
+var truth = "truth";
+var dare = "dare";
+
 
 
 
