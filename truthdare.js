@@ -51,7 +51,7 @@ function generateDare (){
     "Go to a sneaker head (someone who loves his/her shoes) and lick one of their shoes.",
     "Dip a hat in vinager (or in the toilet if there is no vinegar) and wear the hat for 3 minutes.",
     "Tape your mouth for the rest of the game. have someone pull it off you at the end.",
-    ""
+    "CLick the truth button. Then do as it says."
   ];
     var dareResult = dareArray[Math.floor(Math.random() * dareArray.length)];
     displayDare.innerHTML = dareResult;
