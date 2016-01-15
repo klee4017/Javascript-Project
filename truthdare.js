@@ -47,6 +47,10 @@ function generateDare (){
     "Step outside of the house and scream, \'I LOVE DONALD TRUMP.\'",
     "You don;t have to do anything. FREE PASS",
     "EVERYONE HAS TO GIVE YOU TEN DOLLARS NO QUESTIONS ASKED",
+    "Destroy your headphones (Cut them in half, rip them, stomp on them, etc).",
+    "Go to a sneaker head (someone who loves his/her shoes) and lick one of their shoes.",
+    "Dip a hat in vinager (or in the toilet if there is no vinegar) and wear the hat for 3 minutes.",
+    "Tape your mouth for the rest of the game. have someone pull it off you at the end.",
     ""
   ];
     var dareResult = dareArray[Math.floor(Math.random() * dareArray.length)];
