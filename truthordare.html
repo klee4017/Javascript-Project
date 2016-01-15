@@ -6,12 +6,18 @@
     </head>
     <body>
     <h1>Welcome to my Truth or Dare Generator! Click Truth or Dare to receicve your fate!</h1>
-    <input type="button" value="Truth" id="Truth" />
-    or
-    <input type="button" value="Dare" id="Dare" />
+ 
+    
+    <div id = "Truth">
+            <input onclick="generateTruth()" value = "Try it" type="image" src = "truth.jpg" id="thing1">
+        </div>
+        <h1>OR</h1>
+         <div id = "Dare">
+            <input onclick="generateDare()" value = "Try it" type="image" src = "dare.jpg" id="thing2">
+        </div>
 
-    
-    
+    <h2 id= "displayTruth"></h2>
+    <h2 id= "displayDare"></h2>
     
     </body>
 </html>
