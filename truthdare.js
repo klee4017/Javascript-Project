@@ -21,6 +21,7 @@ function generateTruth (){
     "If you had to have a bright light come from any part of your body, where would you let your light shine from",
     "When was the last time you peed your pants. Explain why in great detail.",
     "Who do you hate the most in the room? DO NOT EXPLAIN WHY!!!",
+    "Who you you marry, fuck, and kill, in this room. You cannot use a person twice.",
     
   ];
     var truthResult = truthArray[Math.floor(Math.random() * truthArray.length)];
