@@ -30,17 +30,17 @@ buttonFive.addEventListener("click", function(){
 
 
 buttonSix.addEventListener("click", function(){
- theChanger.style.color = "300px green";
+ theChanger.style.color = "";
 });
 buttonSeven.addEventListener("click", function(){
- theChanger.style.color = "blue" ;
+ theChanger.style.color = "" ;
 });
 buttonEight.addEventListener("click", function(){
- theChanger.style.color = "green" ;
+ theChanger.style.color = "" ;
 });
 buttonNine.addEventListener("click", function(){
- theChanger.style.color = "magenta" ;
+ theChanger.style.color = "" ;
 });
 buttonTen.addEventListener("click", function(){
- theChanger.style.color = "white" ;
+ theChanger.style.color = "" ;
 });
