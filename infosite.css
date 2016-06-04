@@ -1,3 +1,19 @@
-#header{ border:solid black 5px;
+#header{ text-align:center; 
+    margin: auto 150px;
+    
+}
+#shineeinfo{
+    margin:auto 125px;
+    border: solid black 3px;
+    
+}
+#btsinfo{
+    margin:auto 125px;
+    border: solid black 3px;
+    
+}
+#exoinfo{
+    margin:auto 125px;
+    border: solid black 3px;
     
 }
