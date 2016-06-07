@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<title>Calculator</title>
 </head>
 <body>
+        <ul id="navbar">
+             <li><a href="index.html">Home</a></li>
+            <li><a href="infosite.html">Info Site</a></li>
+            <li><a href="simulator.html">Simulator</a></li>
+            <li><a href="truthordare.html">Truth or Dare</a></li>
+            <li><a href="calc.html">Calculator</a></li>
+        </ul>
+    
+   <h2> This calculator can add, subtract, multiply, divide, and find exponents. 
+    The calculator cannot process numbers with decimals but it can give answers in decmals. 
+    </h2>
+    <br>
     
 <input type ="text" name="input1" style="width:50px;" id="input1">
     <select id="dropdown">
@@ -17,7 +29,7 @@
     <input type ="text" name="input2" style="width:50px;" id="input2">
     <input type="button" value="Calculate" id="submitButton" />
 
-    <p id="theanswer"> The answer is: <span id="display"></span></p>
+    <h3 id="theanswer"> The answer is: <span id="display"></span></h3>
     <script src="calc.js"></script>
 
 </body>

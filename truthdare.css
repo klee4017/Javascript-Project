@@ -1,12 +1,22 @@
-#theChanger{
-    
+#display{
+    text-align:center;
+    font-size:30px ;
+}
+
+#buttons{
+    text-align: center;
+    font-size: 40px;
 }
 
 body{
-    background-color:#b3ff99;
+    background-color:#dab3ff;
 }
 
-
+h1{
+    font-size:35px;
+    margin: auto 50px;
+    text-align:center;
+}
 #navbar{
     text-align:center;
      font-family: 'Josefin Sans', sans-serif;

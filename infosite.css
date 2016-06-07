@@ -5,15 +5,47 @@
 #shineeinfo{
     margin:auto 125px;
     border: solid black 3px;
-    
+    background-color:white;
 }
 #btsinfo{
     margin:auto 125px;
     border: solid black 3px;
-    
+    background-color:white;
 }
 #exoinfo{
     margin:auto 125px;
     border: solid black 3px;
-    
+    background-color:white;
 }
+body{
+    background-color: #ffb3b3;
+}
+
+#shinee{
+    font-size: 20px;
+}
+
+#exo{
+    font-size: 20px
+}
+
+#bts{
+    font-size: 20px
+}
+
+#navbar{
+    text-align:center;
+     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+    color:black;
+}
+#navbar li{
+    display:inline-block;
+    border:2px solid black;
+    color:black;
+    font-size:20px;
+}
+a:visited{
+    color:black ;
+}
+

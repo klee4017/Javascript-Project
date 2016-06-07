@@ -3,23 +3,29 @@
     <head>
         <title>Truth or Dare? o.O </title>
         
-        <style>
-        </style>
-
+        <link rel="stylesheet" href="truthdare.css" type="text/css">
     </head>
     <body>
-    <h1>Welcome to my Truth or Dare Generator! Click Truth or Dare to receive your fate!</h1>
+            <ul id="navbar">
+             <li><a href="index.html">Home</a></li>
+            <li><a href="infosite.html">Info Site</a></li>
+            <li><a href="simulator.html">Simulator</a></li>
+            <li><a href="truthordare.html">Truth or Dare</a></li>
+            <li><a href="calc.html">Calculator</a></li>
+        </ul>
+        
+    <h1>Welcome to my Truth or Dare Generator! <br>
+    Click Truth or Dare to receive your fate!</h1>
  
     
-    <div id="Truth">
-            <input onclick="generateTruth()" value = "Try it" type="image" src = "truth.jpg" id="thing1">
-            OR
-            <input onclick="generateDare()" value = "Try it" type="image" src = "dare.jpg" id="thing2">
+    <div id="buttons">
+            <input onclick="generateTruth()" value = "Try it" type="image" src = "pictures/truth.jpg" id="truthPic" width="300px">
+          OR 
+            <input onclick="generateDare()" value = "Try it" type="image" src = "pictures/dare.jpg" id="darePic" width="375px">
         </div>
 
 
-    <h2 id= "displayTruth"></h2>
-    <h2 id= "displayDare"></h2>
+    <h2 id= "display"></h2>
     
     
     <script type="text/javascript" src="truthdare.js"></script>

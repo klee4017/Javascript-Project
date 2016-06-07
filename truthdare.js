@@ -1,8 +1,7 @@
 // JavaScript File
 var truth = "truth";
 var dare = "dare";
-var displayTruth = document.getElementById('displayTruth');
-var displayDare = document.getElementById('displayDare');
+var display = document.getElementById('display');
 
 
 
@@ -20,10 +19,11 @@ function generateTruth (){
     "Who do you hate the most in the room? DO NOT EXPLAIN WHY!!! YOU MUST ANSWER THIS QUESTION",
     "Who you you marry, fuck, and kill, in this room. You cannot use a person more than once.",
     "Who do you see yourself with in the future (spouse, boy/girlfriend, single, etc)",
+    "You don't have to say anything. FREE PASS",
     
   ];
     var truthResult = truthArray[Math.floor(Math.random() * truthArray.length)];
-    displayTruth.innerHTML = truthResult;
+    display.innerHTML = truthResult;
     // generateTruth();
 }
 
@@ -43,7 +43,7 @@ function generateDare (){
     "Give the person to your left a piggy back ride for the next 5 minutes. If you let them go, you will lose. If they have to do a dare, you are allowed to put them down, but your time stops until you pick them back up.",
     "Find a used eraser keep it in your mouth for two minutes. Game can continue if the grouop decides to.",
     "Get a toilet brush (or toothbrush or washcloth if a toilet brush is not present) and scrub your face for 30 seconds with it.",
-    "Step outside of the house and scream, \'I LOVE DONALD TRUMP.\'",
+    "Go outside and yell, \'I LOVE DONALD TRUMP.\'",
     "You don't have to do anything. FREE PASS",
     "EVERYONE HAS TO GIVE YOU TEN DOLLARS NO QUESTIONS ASKED",
     "Destroy your headphones (Cut them in half, rip them, stomp on them, etc).",
@@ -53,7 +53,7 @@ function generateDare (){
     "Click the truth button. Then do as it says."
   ];
     var dareResult = dareArray[Math.floor(Math.random() * dareArray.length)];
-    displayDare.innerHTML = dareResult;
+    display.innerHTML = dareResult;
     // generateDare();
 }
 
