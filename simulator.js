@@ -1,6 +1,8 @@
  // JavaScript File
+//*theChanger is the text that is going to be changed based on the buttons the viewer clicks on
+//* each button has a function of either changing the color of the text or adding a border. Each button has a unique color and thickness combination.
+//* the noChange buttons revert the text that is beign changed back to it's original state with no borders and simple black letters
  var theChanger = document.getElementById("theChanger");
- var backgroundColor = document.getElementById("background");
  var buttonOne = document.getElementById("buttonOne");
  var buttonTwo = document.getElementById("buttonTwo");
  var buttonThree = document.getElementById("buttonThree");
@@ -14,8 +16,9 @@
  var noChange1 = document.getElementById("nochange1");
  var noChange2 = document.getElementById("change2");
  
+//* each function below has a slightly unique function. Time a viewer clicks a button, the computer will change the styling of the text based on what is clicked.
  
- noChange1.addEventListener("click", function(){
+noChange1.addEventListener("click", function(){
   theChanger.style.color = "";
   });
   noChange2.addEventListener("click", function(){

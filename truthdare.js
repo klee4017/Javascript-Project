@@ -1,9 +1,9 @@
 // JavaScript File
-var truth = "truth";
-var dare = "dare";
+//* this variable is linked in the html page for my truth or dare page as it determins which truth or dare shows up for the person to do/answer.
 var display = document.getElementById('display');
 
 
+//*these 2 functions are used to randomize the possible outcomes a user could get. 
 
 function generateTruth (){
     var truthArray = [
