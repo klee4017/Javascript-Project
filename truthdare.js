@@ -19,7 +19,10 @@ function generateTruth (){
     "Who do you hate the most in the room? DO NOT EXPLAIN WHY!!! YOU MUST ANSWER THIS QUESTION",
     "Who you you marry, fuck, and kill, in this room. You cannot use a person more than once.",
     "Who do you see yourself with in the future (spouse, boy/girlfriend, single, etc)",
-    "You don't have to say anything. FREE PASS",
+    "You don't have to say anything. FREE PASS", 
+    "If you can make any part of your body twice its current size, what would you choose?", 
+    "If you had to date someone in this room (there can be gay dates) who would you date? If you are currently dating someone, you must choose someone else."
+    
     
   ];
     var truthResult = truthArray[Math.floor(Math.random() * truthArray.length)];
@@ -36,12 +39,12 @@ function generateDare (){
     "Make a smoothie from the first 4 things you find (edible only, things you would not think of as food would not be included) and drink it. Must have either some sort of milk, juice, or water as a base. ",
     "Dip a piece of food (such as a banana or a chocolate bar) in the toilet and eat it.", 
     "Run into a door",
-    "Give everyone in the room $5. No questions asked",
-    "Kiss the person to your right. The people you are playing with decide where. The person you are kissing must be okay with where you are kissing them." ,
+    "Give everyone in the room $1. No questions asked",
+    "Kiss the person to your right." ,
     "Sit on the lap of the person to your left",
     "Jump onto legos (must be more than one lego and must make physical contact)",
-    "Give the person to your left a piggy back ride for the next 5 minutes. If you let them go, you will lose. If they have to do a dare, you are allowed to put them down, but your time stops until you pick them back up.",
-    "Find a used eraser keep it in your mouth for two minutes. Game can continue if the grouop decides to.",
+    "Give the person to your left a piggy back ride for the next 5 min utes. If you let them go, you will lose. If they have to do a dare, you are allowed to put them down, but your time stops until you pick them back up.",
+    "Find a used eraser and keep it in your mouth for two minutes. Game can continue if the group decides to.",
     "Get a toilet brush (or toothbrush or washcloth if a toilet brush is not present) and scrub your face for 30 seconds with it.",
     "Go outside and yell, \'I LOVE DONALD TRUMP.\'",
     "You don't have to do anything. FREE PASS",
@@ -49,8 +52,11 @@ function generateDare (){
     "Destroy your headphones (Cut them in half, rip them, stomp on them, etc).",
     "Go to a sneaker head (someone who loves his/her shoes) and lick one of their shoes.",
     "Dip a hat in vinager (or in the toilet if there is no vinegar) and wear the hat for 3 minutes.",
-    "Tape your mouth for the rest of the game then have someone pull it off you at the end. If you click true or there is one involving eating or your mouth, you must take the tape off then replace it when you have finished.",
-    "Click the truth button. Then do as it says."
+    "Tape your mouth for the rest of the game then have someone pull it off you at the end. If you click truth or there is one involving eating or your mouth, you must take the tape off then replace it when you have finished.",
+    "Click the truth button. Then do as it says.",
+    "Be a human Snuggie until your next turn by draping yourself on someone. No piggybak rides. If the person you are on has to do a dare, youhave to be in contact with them the whole time.",
+    
+    
   ];
     var dareResult = dareArray[Math.floor(Math.random() * dareArray.length)];
     display.innerHTML = dareResult;
