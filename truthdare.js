@@ -16,12 +16,16 @@ function generateTruth (){
     "Would you rather get a small loan of a million dollars for going on a 3 day date with Justin Bieber or for giving Donald Trump a foot rub?",
     "If you had to have a bright light shine from any part of your body, where would you let it shine?",
     "When was the last time you peed your pants. Explain why in great detail.",
-    "Who do you hate the most in the room? DO NOT EXPLAIN WHY!!! YOU MUST ANSWER THIS QUESTION",
+    "Who do you hate/dislike the most in the room other than yourself? DO NOT EXPLAIN WHY!!! YOU MUST ANSWER THIS QUESTION",
     "Who you you marry, fuck, and kill, in this room. You cannot use a person more than once.",
     "Who do you see yourself with in the future (spouse, boy/girlfriend, single, etc)",
     "You don't have to say anything. FREE PASS", 
     "If you can make any part of your body twice its current size, what would you choose?", 
-    "If you had to date someone in this room (there can be gay dates) who would you date? If you are currently dating someone, you must choose someone else."
+    "If you had to date someone in this room (there can be gay dates) who would you date? If you are currently dating someone, you must choose someone else.",
+    "Free pass! You don't have to do anything!!",
+    
+    
+    
     
     
   ];
