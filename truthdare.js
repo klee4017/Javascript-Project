@@ -47,7 +47,7 @@ function generateDare (){
     "Kiss the person to your right." ,
     "Sit on the lap of the person to your left",
     "Jump onto legos (must be more than one lego and must make physical contact)",
-    "Give the person to your left a piggy back ride for the next 5 min utes. If you let them go, you will lose. If they have to do a dare, you are allowed to put them down, but your time stops until you pick them back up.",
+    "Give the person to your left a piggyback ride for the next 5 minutes. If you let them go, you will lose. If they have to do a dare, you are allowed to put them down, but your time stops until you pick them back up.",
     "Find a used eraser and keep it in your mouth for two minutes. Game can continue if the group decides to.",
     "Get a toilet brush (or toothbrush or washcloth if a toilet brush is not present) and scrub your face for 30 seconds with it.",
     "Go outside and yell, \'I LOVE DONALD TRUMP.\'",
@@ -58,7 +58,7 @@ function generateDare (){
     "Dip a hat in vinager (or in the toilet if there is no vinegar) and wear the hat for 3 minutes.",
     "Tape your mouth for the rest of the game then have someone pull it off you at the end. If you click truth or there is one involving eating or your mouth, you must take the tape off then replace it when you have finished.",
     "Click the truth button. Then do as it says.",
-    "Be a human Snuggie until your next turn by draping yourself on someone. No piggybak rides. If the person you are on has to do a dare, youhave to be in contact with them the whole time.",
+    "Be a human Snuggie until your next turn by draping yourself on someone. No piggyback rides. If the person you are on has to do a dare, youhave to be in contact with them the whole time.",
     
     
   ];
